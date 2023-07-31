@@ -1,7 +1,7 @@
 import argparse
 import json
 import netCDF4 as nc
-from emulator.model import ResNet
+from deep_climate_emulator.emulator.model import ResNet
 
 
 def main(args):
