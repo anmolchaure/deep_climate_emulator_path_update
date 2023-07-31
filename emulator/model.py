@@ -6,10 +6,10 @@ from functools import partial
 from subprocess import call
 import numpy as np
 import tensorflow as tf
-import emulator.data as data
-import emulator.error as error
-import emulator.graph as graph
-from emulator.normalization import Normalizer
+import deep_climate_emulator.emulator.data as data
+import deep_climate_emulator.emulator.error as error
+import deep_climate_emulator.emulator.graph as graph
+from deep_climate_emulator.emulator.normalization import Normalizer
 
 
 # Static decay functions
